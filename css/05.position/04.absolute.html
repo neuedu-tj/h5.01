@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #d1 {
+            height: 100px;
+            width: 100px;
+            background-color: #0277BD;
+
+            /*margin: 100px;*/
+
+            position: relative;
+        }
+
+        #d2 {
+            width: 20px;
+            height: 20px;
+            background-color: crimson;
+
+            position: absolute;
+
+            left: 90px;
+            top: -10px;
+
+            border-radius: 50%;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<!--  绝对定位是 相对于 父层做定位  , 且父层 有定位属性  -->
+
+<br><br><br><br>
+
+    <div id="d1">
+
+        <div id="d2"></div>
+
+    </div>
+
+
+</body>
+</html>

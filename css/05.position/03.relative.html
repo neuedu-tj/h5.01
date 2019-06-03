@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        div {
+            height: 100px;
+            width: 100px;
+
+            display: inline-block;
+        }
+
+        #d1 {
+            background-color: #0277BD;
+            position: relative;
+            left: 200px;
+        }
+
+        #d2 {
+            background-color: red;
+            position: relative;
+            left: 50px;
+            top: 50px;
+            z-index: -1;
+        }
+        #d3 {
+            background-color: darkcyan;
+            z-index: 1;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+
+</body>
+</html>

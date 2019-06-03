@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+
+
+
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+        }
+
+        .d {
+
+            width: 100%;
+            background-color: #0277BD;
+
+        }
+
+        #signal {
+            background-color: black;
+            height: 40px;
+        }
+        #title {
+            background-color: darkorange;
+            height: 60px;
+        }
+        #msg-list {
+            background-color: crimson;
+            /*height: 240px;*/
+            flex: 1;
+        }
+        #menus {
+            background-color: darkcyan;
+            height: 60px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div id="container">
+
+    <div id="signal" class="d">1</div>
+    <div id="title" class="d">2</div>
+    <div id="msg-list" class="d">3</div>
+    <div id="menus" class="d">4</div>
+
+
+</div>
+
+
+</body>
+</html>

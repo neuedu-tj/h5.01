@@ -1,0 +1,44 @@
+#title {
+    height: 50px;
+    width: 100%;
+    background-color: #313131;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#title-left {
+    height: 50px;
+    width: 50px;
+}
+
+#title-center {
+    height: 50px;
+    flex: 1;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: white;
+}
+
+#title-right {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/small/add.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+
+    position: relative;
+}
+
+#sub-menus {
+    height: 200px;
+    width: 140px;
+
+    position: absolute;
+
+    top: 56px;
+    right: 6px;
+    background-color: #313131;
+}
+

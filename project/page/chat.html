@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="../css/common.css" >
+
+    <style>
+
+        #container {
+            height: 500px;
+            width: 300px;
+        }
+
+        .item {
+            min-height: 20px;
+            width: 100%;
+            display: flex;
+            flex-flow: row;
+        }
+
+        .item-left {
+            justify-content: flex-start;
+        }
+        .item-right {
+            justify-content: flex-end;
+        }
+
+        .msg {
+            min-height: 20px;
+            max-width: 70%;
+            margin: 10px;
+
+        }
+
+        .msg-left {
+            background-color: gray;
+        }
+        .msg-right {
+            background-color: greenyellow;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div id="container" class="border">
+
+        <div class="item item-left ">
+            <div class="msg msg-left">Hello Everyone ; I learn Java from neuedu .</div>
+        </div>
+
+        <div class="item item-right ">
+            <div class="msg msg-right">Task</div>
+        </div>
+
+        <div class="item item-right ">
+            <div class="msg msg-right">学的好爽啊 , 学的好爽啊 , 学的好爽啊</div>
+        </div>
+
+        <div class="item item-left ">
+            <div class="msg msg-left">这次实训还是很有收获的</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
